@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.baseproj.DriverController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Hotel.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="549.0" layoutY="67.0" prefHeight="50.0" prefWidth="182.0" stylesheets="@Style.css" text="Welcome to Hotel">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="203.0" layoutY="152.0" prefHeight="41.0" prefWidth="167.0" stylesheets="@Style.css" text="Sign In ">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="18.0" layoutY="245.0" prefHeight="41.0" prefWidth="125.0" stylesheets="@Style.css" text="Name">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="26.0" layoutY="349.0" prefHeight="41.0" prefWidth="125.0" stylesheets="@Style.css" text="Passwoard">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfname" layoutX="179.0" layoutY="245.0" prefHeight="41.0" prefWidth="214.0" />
+      <Button fx:id="SignInBT" layoutX="242.0" layoutY="446.0" mnemonicParsing="false" onAction="#SignInBT" text="Sign In" />
+      <PasswordField fx:id="tfpass" layoutX="179.0" layoutY="349.0" prefHeight="41.0" prefWidth="214.0" />
+   </children>
+</AnchorPane>
